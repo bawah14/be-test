@@ -172,12 +172,7 @@ Write a  script named `unfulfilledOrders.sh`.
 Your script should take in 3 command line arguments:
 -   Arg 1: absolute file path of the order list (e.g. `orderLists.txt`)
 -   Arg 2: the customer's order
--   Arg 3: he order date in YYYY-MM-DD format
-
-Your script should output the following:
--   If there are enough ingredients to create the specified dessert, output exactly (including all punctuation) : You shall have (recipe name in block letters)!
--   Else, output: You shall not have (recipe name in block letters)
--   If an unrecognised recipe is provided (eg Pineapple Pie), output: We do not have that on the menu
+-   Arg 3: the order date in YYYY-MM-DD format
 
 ##### Constraints:
 There is an infinite list of orders that are not predefined. You can consider the orders to be case insensitive. You may also get orders which contain non-alphabetical characters.
