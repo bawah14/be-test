@@ -14,3 +14,5 @@ Instructions
 2) If you compile DefenderArcade into the same folder, you can use either run.sh or run.bat to help you run Main.main()
 3) If you use an IDE, you will have to setup your own workflow to run Main.main() and pass the input file as parameter to the program.
 4) Submit only DefenderArcade.java, and unit test files if you have written any.
+
+* I have tried running using run.sh but i got some trouble with it. My device cant open the Encrypted Main.class so i also upload my netbeans project.
