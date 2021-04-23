@@ -23,4 +23,4 @@ Instructions
 4) Submit only RoyalRumble.java, and unit test files if you have written any.
 
 
-* I have tried running using run.sh but i got some trouble with it. My device cant open the Encrypted Main.class so i also upload my netbeans project.
+* I have tried running using run.sh but i got some trouble with it. My device cant open the compiled Main.class so i also upload my netbeans project.
