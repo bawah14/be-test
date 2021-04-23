@@ -29,7 +29,6 @@ public class RoyalRumble {
     public List<String> getSortedList(List<String> names){
         
 //        sorting algoritm
-        System.out.println(names);
         List<Royal> res = new ArrayList<>();
         List<String> result = new ArrayList<>();
         names.stream().map((temp) -> new Royal(temp)).forEach((royal) -> {
@@ -38,8 +37,8 @@ public class RoyalRumble {
         res.sort(new sorter());
         for (Royal temp : res) {
             result.add(temp.getFullname());
+            System.out.println(temp.getFullname());
         }
-        System.out.println(result);
         return result;
     }
     
