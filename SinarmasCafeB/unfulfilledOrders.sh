@@ -13,7 +13,7 @@ while read line ; do
 	preformatted=${line^^}
 	IFS=''
 	read -d 'order' -a date <<< "$text"
-	if [[ "$preformatted" == *"$q2"* ]] && [[ "$preformatted" == *"$q1"* ]] && [[ "$preformatted" == *"FALSE"* ]]; then
+	if [[ "$preformatted" == *"$q2"* ]] && [[ "$preformatted" == *"$q1"* ]] && [[ "$preformatted" == *"FALSE"* ]] && [[ $counter -le 3 ]] ; then
 		let counter++
 		result[$counter]=$line
 	fi
